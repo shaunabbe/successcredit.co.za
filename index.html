@@ -26,7 +26,7 @@
          <div id="topbar" class="hide-s hide-m">
             <div class="line">
                <div class="m-6 l-6 hide-s">
-                  <p><i class="icon-sli-phone"></i>&nbsp; &nbsp;081 069 4009  <!---|   <i class="icon-sli-envelope"></i>&nbsp; &nbsp; info@successcs.com</p> --->
+                  <p><i class="icon-sli-phone"></i>&nbsp; &nbsp;081-075-0229  <!---|   <i class="icon-sli-envelope"></i>&nbsp; &nbsp; info@successcs.com</p> --->
                </div>
             </div>  
          </div> 
@@ -335,13 +335,13 @@
                   </div>
                   <div class="s-12 m-12 l-5">
                     <h3>Write to us. We will call you back ASAP!</h3>
-                    <form class="customform" action = "POST" data-netlify = "true">
+                    <form class="customform"  name ="contact" action = "POST" data-netlify = "true" data-netlify-recaptcha="true">
                       <div class="s-12"><input id="email" name ="email" placeholder="Your e-mail" title="Your e-mail" type="text" required/></div>
                       <div class="s-12 inlinetext"><input id="name" name="name" placeholder="Your name" title="Your name" type="text" style="
                         width: 50%" required/> <input id="number" name="number" placeholder="Your phone number" title="Your phone number" type="tel" style="
                         width: 45%" required/></div>
                       <div class="s-12"><textarea id="message" placeholder="Your message" name="message" rows="4" required></textarea></div>
-                      <div class="s-12 m-12 l-4"><button class="color-btn" type="submit" value="Send Message" required>Submit</button></div>
+                      <div class="s-12 m-12 l-4"><button class="color-btn" type="submit" value="Send Message" required>Submit</button>  <div data-netlify-recaptcha="true"></div>  </div>
                     </form>
                   </div>                
                </div>
