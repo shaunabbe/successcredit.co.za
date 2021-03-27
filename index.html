@@ -336,13 +336,13 @@
                   <div class="s-12 m-12 l-5">
                     <h3>Write to us. We will call you back ASAP!</h3>
                     <form class="customform"  name ="contact" action = "POST" data-netlify = "true" data-netlify-recaptcha="true">
-                      <div class="s-12"><input id="email" name ="email" placeholder="Your e-mail" title="Your e-mail" type="text" required/></div>
+                      <div class="s-12"><input id="email" name ="email" placeholder="Your e-mail" title="Your e-mail" type="email" required/></div>
                       <div class="s-12 inlinetext"><input id="name" name="name" placeholder="Your name" title="Your name" type="text" style="
                         width: 50%" required/> <input id="number" name="number" placeholder="Your phone number" title="Your phone number" type="tel" style="
                         width: 45%" required/></div>
                       <div class="s-12"><textarea id="message" placeholder="Your message" name="message" rows="4" required></textarea></div>
-                      <div data-netlify-recaptcha="true"> </div>
-                      <div class="s-12 m-12 l-4"><button class="color-btn" type="submit" value="Send Message" required>Submit</button></div>
+                      <div class="s-12 m-12 l-4"><button class="color-btn" type="submit" value="Send Message" aria-required="true">Submit</button></div>
+                      <div data-netlify-recaptcha="true"></div>                      
                     </form>
                   </div>                
                </div>
