@@ -492,6 +492,10 @@ p.cases {
 	width: 100%;
 }
 
+#footerimg {
+	max-width: 100%;
+}
+
 /*mine*/
 @media screen and (max-width: 480px){
 
