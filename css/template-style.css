@@ -494,6 +494,7 @@ p.cases {
 
 #footerimg {
 	max-width: 100%;
+	position: relative;
 }
 
 /*mine*/
